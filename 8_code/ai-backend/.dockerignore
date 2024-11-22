@@ -1,0 +1,8 @@
+# Ignore everything
+**
+
+# ... except for dependencies and source
+!pyproject.toml
+!core
+!Makefile
+!start_service.py

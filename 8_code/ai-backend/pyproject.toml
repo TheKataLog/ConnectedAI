@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "ai-backend"
+version = "0.3.0"
+description = "AI Chatbot Backend"
+authors = [
+    "Xun Zhou <xzhou@woolworths.com.au>"
+]
+packages = [{ include = "core", from = "." }]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+fastapi = "^0.115.5"
+langchain = "^0.3.4"
+langchain-core = "^0.3.13"
+langchainhub = "^0.1.21"
+langchain-google-vertexai = "^2.0.5"
+langchain-community = "^0.3.3"
+langgraph = "^0.2.39"
+loguru = "^0.7.2"
+jsonref = "^1.1.0"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+ydata-profiling = "^4.12.0"
+tqdm = "^4.67.0"
+sentencepiece = "^0.2.0"
+langchain-mongodb = "^0.2.0"
+motor = "^3.6.0"
+streamlit = "^1.40.1"
+anthropic = {extras = ["vertex"], version = "^0.39.0"}
+tiktoken = "^0.8.0"
+langfuse = "^2.53.9"
+langchain-google-genai = "^2.0.4"
+websockets = "^14.1"
+langchain-openai = "^0.2.9"
+pyjwt = "^2.10.0"
+nest-asyncio = "^1.6.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2"
+black = "^23.12.0"
+pre-commit = "^3.4.0"
+jupyter = "^1.0.0"
+flake8 = "^6.1.0"
+isort = "^5.12.0"
+nbqa = "^1.7.0"
+nbconvert = "6.5.0"
+bleach = "4.1.0"
+uvicorn = "^0.32.0"
+pytest-asyncio = "^0.24.0"
+
+[tool.poetry.scripts]
+st = 'start_service:start_service'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
