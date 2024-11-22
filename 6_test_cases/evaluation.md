@@ -11,6 +11,7 @@ We've prepared a set of test cases for us to evaluate our model. The test cases 
 ### Demonstration
 
 As a demonstration, the test_agent.ipynb notebook shows an end-to-end example of how to use Ragas to evaluate our model for a single test case (the `return-eligibility-test-set` files).
+You can view the end-to-end evaluation process for this test case `8_code/ai-backend/core/notebooks/test_agent.ipynb`
 
 These questions were llm-generated, and are variations along the lines of `Can I return my order, the order ID is 1234`.
 
@@ -25,6 +26,7 @@ We evaluate three separate models:
 Langfuse allows us to trace the execution of our code, and see the exact inputs and outputs of each function call.
 
 ![Langfuse Tracing](../images/evaluation/langfuse_tracing.png)
+
 ## Metrics used
 
 Ragas uses a set of metrics to evaluate the performance of the model. The metrics we've used are as follows:
