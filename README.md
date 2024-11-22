@@ -246,5 +246,8 @@ Langfuse facilitates observability, metrics, evaluations, prompt management for 
 📄 [View Deployment Instructions](7_deployment/local-machine-deployment.md)  
 Step-by-step guide for running the system on your local machine, including backend and frontend setup.
 
+📄 [View Data Preprocessing and Loading Instructions](7_deployment/data_preprocessing_loading.md)  
+Step-by-step guide for data preprocessing and loading.
+
 📄 [View Cloud Hosting Instructions](7_deployment/cloud_hosting_instructions.md)  
 Step-by-step guide for hosting the system in the cloud, including backend and frontend setup.
