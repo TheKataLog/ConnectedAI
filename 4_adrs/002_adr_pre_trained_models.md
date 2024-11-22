@@ -42,6 +42,8 @@ Pre-trained models, such as Anthropic’s Claude Sonnet 3.5 and Google’s Gemin
 
 Furthermore, the choice of pre-trained models will be made based on the required capabilities and the cost-benefit analysis. For example, if the goal of a prompt is to perform a tool call using a specific tool, the model should be capable of reliably reasoning about the tool to call and then calling the tool such as Claude’s Sonnet 3.5. For simpler tasks, a cheaper, speedier model such as Google’s Gemini Flash will be sufficient.
 
+In this implementation, we will be using Anthropic’s Claude Sonnet 3.5 as the core LLM driving agentic behaviour due to superior reasoning and tool-calling performance. Gemini 1.5 Flash will be used for routers and simple tasksdue to it's speed and low cost.
+
 ### Reasons  
 - Proven performance with state-of-the-art benchmarks.  
 - Significantly reduced development time compared to building in-house models.  

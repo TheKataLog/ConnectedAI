@@ -235,9 +235,9 @@ Detailed test cases for functional and non-functional validation, including:
 
 #### **LangFuse Demo** 
 
-Langfuse facilitates observability, metrics, evaluations, prompt management for the AI agent.
+Langfuse and Ragas facilitates observability, metrics, evaluations, prompt management for the AI agent.
 
-<a href="https://vimeo.com/1032143843" alt="LangFuse Demo">Click to watch the LangFuse Demo</a>
+📄 [View Evaluation and Tracing](6_test_cases/evaluation.md)  
 
 ---
 
