@@ -233,7 +233,7 @@ Detailed test cases for functional and non-functional validation, including:
 - Product Comparisons
 - Order Status and Shipping Queries
 
-#### **LangFuse Demo** 
+#### **Langfuse and Ragas** 
 
 Langfuse and Ragas facilitates observability, metrics, evaluations, prompt management for the AI agent.
 
