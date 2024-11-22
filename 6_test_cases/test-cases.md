@@ -9,7 +9,7 @@ Questions that test the model's ability to understand context, not just retrieve
 - **Prompt Example**:  
   "I see there are some Sony TVs in your catalog. Can you compare the features and prices between the Sony KD75XF8596BU and other TV models you have?"  
   
-   **Demo Video**: Product TV Value - https://vimeo.com/1031760616
+   **Demo Video**: Product Comparison Category - https://vimeo.com/1031760682
 
 - **Prompt Example**:  
   "Looking at the ratings distribution across different product categories, which category would you recommend for the most reliable purchases based on customer satisfaction?"  
@@ -20,8 +20,6 @@ Questions that test the model's ability to understand context, not just retrieve
   "I notice you have mobile phones and digital cameras. For someone interested in photography, would you recommend the Sony Xperia XA2 Ultra or the Pentax K-1 camera? Please explain the pros and cons of each for photography."  
   
   **Demo Video**: Product Compare Cameras - https://vimeo.com/1031760717
-  
-  **Demo Video**: Product Comparison Category - https://vimeo.com/1031760682
 
 - **Prompt Example**:  
   "Based on the stock quantities and prices shown in your inventory, which TV models offer the best value for money while still being readily available?"  
