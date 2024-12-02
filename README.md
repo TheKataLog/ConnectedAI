@@ -1,10 +1,14 @@
 <img src="images/common/ai_katas.png" alt="AI Katas"/>
 
-# **ConnectedAI Team's - ShopWise AI Assistant System** 
-
-<div align="center">
-  <img src="images/common/robot_main.png" alt="ConnectedAI" border="0"/>  <br>
-  <a href="https://vimeo.com/1032143843" alt="ConnectedAI Assistant Demo">Click to watch the AI Assistant Demo</a>
+# **Connected AI Team's - ShopWise AI Assistant Agent** 
+ <div align="center" style="text-align: center;">
+  <a href="https://vimeo.com/1035054086">
+    <img src="images/common/watch_video.png" alt="Click to watch the video" />
+  </a>
+  <br> <br>
+  <a href="https://vimeo.com/1035054086" alt="Connected AI - O'Reilly AI Katas Challenge Presentation Video">Click to watch our presentation video for the O'Reilly AI Katas Challenge</a>
+  <br><br>
+  <a href="https://vimeo.com/1032143843" alt="Connected AI - AI Agent Demo">Click to watch our AI Agent Demo</a>
 </div>
 
 ### Welcome to the **ShopWise AI Assistant** repository! 
